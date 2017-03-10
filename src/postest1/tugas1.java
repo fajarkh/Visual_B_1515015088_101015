@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package postest1_mod12;
+package postest1;
 
 import javax.swing.JOptionPane;
 
@@ -11,13 +11,13 @@ import javax.swing.JOptionPane;
  *
  * @author fajarkh
  */
-public class konversi_suhu extends javax.swing.JFrame {
+public class tugas1 extends javax.swing.JFrame {
 int input;
 int output_cf=0,output_ck=0,output_fc=0,output_fk=0,output_kc=0,output_kf=0;
     /**
      * Creates new form konversi_suhu
      */
-    public konversi_suhu() {
+    public tugas1() {
         initComponents();
     }
     public void parsing () {
@@ -486,20 +486,21 @@ this.parsing();
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(konversi_suhu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(tugas1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(konversi_suhu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(tugas1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(konversi_suhu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(tugas1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(konversi_suhu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(tugas1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new konversi_suhu().setVisible(true);
+                new tugas1().setVisible(true);
             }
         });
     }
