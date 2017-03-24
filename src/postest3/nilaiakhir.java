@@ -531,7 +531,8 @@ public int bnim;
 nilai= (absen/16*10)+(tugas*20/100)+(uts*30/100)+(uas*40/100);
 if(nilai>=75){
 lab_lulus.setText("LULUS"); 
-}
+}     
+else lab_lulus.setText(" TIDAK LULUS"); 
     lab_tgs.setText(""+tugas); 
     lab_abs.setText(""+absen);
     lab_uas.setText(""+uas);
@@ -540,7 +541,7 @@ lab_lulus.setText("LULUS");
     lab_nim.setText(""+nim+""+bnim);
     lab_matkul.setText(""+matkul);
     panel_input.setVisible(false);
-    panel_hasil.setVisible(true);        
+    panel_hasil.setVisible(true);   
     }//GEN-LAST:event_btn_hitungMouseClicked
 
     private void btn_homeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_homeActionPerformed
